@@ -1,0 +1,21 @@
+engines:
+  bundler-audit:
+    enabled: true
+  coffeelint:
+    enabled: true
+  eslint:
+    enabled: true
+  fixme:
+    enabled: true
+  rubocop:
+    enabled: true
+ratings:
+  paths:
+  - Gemfile.lock
+  - "**.coffee"
+  - "**.js"
+  - "**.jsx"
+  - "**.rb"
+exclude_paths:
+ - "**/*.tex"
+ - "*.tex"
